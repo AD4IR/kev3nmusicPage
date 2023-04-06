@@ -1,0 +1,40 @@
+nav {
+    background-color: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  nav .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    height: 70px;
+  }
+  
+  nav .menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav .menu li {
+    margin-left: 20px;
+  }
+  
+  nav .menu li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  nav .menu li a:hover {
+    color: #000000;
+    text-shadow: 0 0 10px rgba(0, 235, 243, 0.682);
+  }
