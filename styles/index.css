@@ -7,7 +7,9 @@ body {
 }
 
 nav {
-    background: linear-gradient(90deg, #b9590b 0%, #ac02bf 100%);
+    /*background: linear-gradient(130deg, #ed710c 0%, #000000 100%);*/
+    background-color: rgba(255, 255, 255, 0.039);
+    backdrop-filter: blur(10px);
     position:relative;
     width: 100%;
     top: 0;
@@ -44,8 +46,8 @@ nav {
   }
   
   nav .menu li a:hover {
-    color: #ffffff;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.808);
+    color: #ff6f00;
+    text-shadow: 0 0 10px rgba(255, 115, 0, 0.808);
   }
 
   header {
@@ -56,6 +58,10 @@ nav {
   section {
     margin-top: 20px;
     padding: 20px;
-    background-color: #f2f2f2;
-    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.039);
+    backdrop-filter: blur(10px);
+    justify-content: center;
   }
+
+
+  
